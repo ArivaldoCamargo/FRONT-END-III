@@ -1,0 +1,40 @@
+*{
+    margin:0;
+   
+    
+}
+.listagem{
+    background-color: blue;
+    padding:30px;
+
+
+}
+
+
+h2 , p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:aliceblue;
+    padding: 5px;
+}
+
+button{
+    font-size: 1.25em;
+    background-color: #2391eb;
+    color: #FFF;
+    padding: .5em;
+    width: 30ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+    box-shadow: #FFF;
+    border: #2391eb;
+    border-radius: 10px;
+        
+}
+button:hover {
+    background-color: rgb(9, 9, 73);
+    color:white;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
